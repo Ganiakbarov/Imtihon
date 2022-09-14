@@ -1,0 +1,27 @@
+.card{
+   display: flex;
+    width: 1440px;
+    height: 650px;
+    margin: 0 0 0 30px;
+ &__container{
+   
+ }
+  &__list{
+    display: flex;
+    flex-direction: row;
+    gap: 78;
+    padding: 0;
+    margin:0 auto;
+   gap: 284px;
+
+  }
+  &__item{
+    display: flex;
+    flex-direction: column;
+  }
+  &__fon{
+    width: 96px;
+    height: 96px;
+  }
+
+}

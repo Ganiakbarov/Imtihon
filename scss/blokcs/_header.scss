@@ -1,0 +1,56 @@
+.header{
+    display: flex;
+    width: 1440px;
+    height: 107px;
+
+    &__container{
+        display: flex;
+        flex-direction: row;
+    }
+    &__logo{
+    margin: 16px 58px 0 169px;
+    }
+    &__list{
+        display: flex;
+        margin: 36px 608px 0 0;
+        gap: 78px;
+    }
+    &__item{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+    &__btn{
+        width: 180px;
+        height: 53px;
+     margin: 22px 0 0 0;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FCB72B;
+    border: 1px solid transparent;
+    }
+
+}
+@media screen and (max-width: 768px){
+    .header{
+        width: 768px;
+        height: 96;
+
+        &__logo{
+            margin: 36px 58px 0 58px;
+        }
+        &__list{
+            display: flex;
+            margin: 36px 94px 0 0;
+            gap: 32px;
+        }
+    }
+   
+    
+
+}

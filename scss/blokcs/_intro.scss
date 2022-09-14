@@ -1,0 +1,65 @@
+.container{
+    margin: 0;
+}
+
+.intro{
+display: flex;
+width: 2610px;
+height: 1740px;
+margin: 0 0 0 30px;
+background-image: url(../../images/Bitmap\ \(4\).png);
+background-repeat: no-repeat;
+&::before{
+    content: url("../../images/Path\ 2.svg");
+    margin: 353px 0 0 0;
+}
+&::after{
+    content: url("../../images/Group\ 8\ Copy.svg");
+    margin: 353px 0 0 -650px; 
+}
+
+&__block{
+display: flex;  
+flex-direction: column;
+width: 1150px;
+height: 345px;
+margin: 66px 0 0 0;
+}
+&__title{
+    display: flex;
+    width: 500px;
+    height: 112px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+  
+}
+&__text{
+    display: flex;
+    width: 404.69px;
+    height: 100px;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    margin: 40px 0 0 57px;
+}
+&__btn{
+    width: 180px;
+    height: 53px;
+    margin: 22px 0 0 0;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FCB72B;
+    border: 1px solid transparent;
+    }
+}

@@ -1,0 +1,121 @@
+.about{
+  display: flex;
+width: 1440px;
+height: 650px;
+margin: 0 auto;
+background-image: url(../../images/Group\ 32.svg);
+background-repeat: no-repeat;
+   
+    &__container{
+        display: flex;
+    }
+    &__pages{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0 auto;
+        width: 2619px;
+        height: 449.94px;
+    }
+    &__title{
+    display: flex;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #495567;
+    margin: 34px 0 0 0;
+    }
+    &__text{
+     display: flex;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+    }
+    &__img{
+    display: flex;
+    width: 747px;
+    height: 498px;
+     margin: 0 0 0 944px;
+    }
+    &__btn{
+    width: 180px;
+    height: 53px;
+     margin: 0 auto;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FCB72B;
+    border: 1px solid transparent;
+    }
+
+    &__img2{
+        width: 620px;
+        height: 827px;
+        padding: 0;
+    }
+    &__title2{
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -2.14286px;
+        color: #495567;
+        margin: 0 0 0 944px;
+    }
+    &__text2{
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #939CAA;
+        margin: 24px 0 0 944px;  
+    }
+    &__btn2{
+        width: 180px;
+        height: 53px;
+         margin: 0 auto;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+        background: #FCB72B;
+        border: 1px solid transparent;
+    }
+    &__title3{
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -2.14286px;
+        color: #495567;
+    }
+   &__text3{
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+   }
+   &__img3{
+    width: 732px;
+    height: 488px;
+    margin: 300px 0 0 500px;
+   }
+}   
